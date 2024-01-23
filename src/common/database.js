@@ -3,7 +3,7 @@ const config = require("config");
 
 module.exports = () => {
   mongoose
-    .connect(config.get("db.mongodb.uri"))
+    .connect("mongodb+srv://bigcityboi:wolp2EYG7mFxhOFN@cluster0.cuicfuc.mongodb.net/test?retryWrites=true&w=majority")
     .then(() => console.log("Connected!"));
   return mongoose;
 };
