@@ -9,5 +9,4 @@ module.exports = {
     view_engine: "ejs",
     session_key: "Vietpro_session",
   },
-  db: require("./db"),
 };
