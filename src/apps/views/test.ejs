@@ -1,0 +1,16 @@
+<!-- 
+    1. Nhúng Js vào View
+    2. In giá trị của biến
+    3. Gọi view vào view
+    4. Redirect
+    5. 
+ -->
+
+<h1>Welcome EJS!</h1>
+
+<%=data%> <%- include("./test/test2")%> <% for(let i=1; i<=10;i++){%> <%
+if(i==5){ %>
+<h1><%=i%></h1>
+<%}else{%>
+<h3><%=i%></h3>
+<%}%> <% }%>
